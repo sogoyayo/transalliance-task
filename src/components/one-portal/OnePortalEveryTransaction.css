@@ -1,0 +1,65 @@
+.portal-section {
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr;
+  background-color: #fff;
+}
+
+.portal-image {
+  display: block;
+  max-width: 100%;
+}
+
+.portal-image-svg {
+  height: 100%;
+}
+
+.portal-info-container {
+  background-color: #5FB083;
+  display: grid;
+  /* justify-items: flex-end; */
+  align-self: end;
+  /* padding-top: 4rem; */
+}
+
+.portal-info {
+  background-color: #5FB083;
+  display: grid;
+  justify-content: flex-end;
+  align-self: flex-end;
+  padding: 3rem;
+}
+
+.portal-info h2 {
+  line-height: 1.4;
+  font-size: 24px;
+  color: #0F0F0F;
+  margin-bottom: 20px;
+}
+
+.portal-info p {
+  font-size: 16px;
+  color: #0F0F0F;
+  margin-bottom: 20px;
+}
+
+.portal-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portal-info ul li {
+  font-size: 14px;
+  color: #0F0F0F;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.portal-info ul li::before {
+  content: '•';
+  color: #0F0F0F;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

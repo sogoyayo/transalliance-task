@@ -1,0 +1,118 @@
+.contact-section {
+    background: #f7f7f7;
+}
+
+.speak-to-sales-section {
+    display: grid;
+    /* padding: 40px 20px; */
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.sales-image img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    border-radius: 5px;
+}
+
+.sales-form {
+    padding: 20px;
+    background: white;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.sales-form form {
+    padding: 0 2rem;
+}
+
+.sales-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: .65rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-group.checkbox {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: start;
+    font-size: 12px;
+    color: #555;
+}
+
+.form-group.checkbox input {
+    margin-top: 3px;
+}
+
+
+.contact-button svg {
+    stroke: #32B477;
+    stroke: #122038;
+    width: 15px;
+    height: 15px;
+}
+
+.contact-button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #122038;
+    background: #32B477;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: .5rem;
+}
+
+.contact-button {
+    color: white;
+    border: none;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(264.61deg, #24343E -97.02%, #5AAF87 133.21%);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}

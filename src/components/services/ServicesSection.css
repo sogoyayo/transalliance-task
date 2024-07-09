@@ -1,0 +1,74 @@
+.transalliance-container {
+    padding: 20px;
+    padding-top: 6rem;
+    background-color: #f7f7f7;
+    /* font-family: Arial, sans-serif; */
+
+}
+
+.transalliance-section {
+    display: grid;
+
+
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+}
+
+.service-section {
+    margin-top: 3rem;
+}
+
+.service-section h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.service-item {
+    margin-bottom: 3rem;
+}
+
+.service-item .icon svg {
+    width: 4rem;
+    height: 4rem;
+}
+
+.service-item .icon {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: #5AAF87;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.service-item .icon svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.service-content h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.service-content p {
+    color: #666;
+    line-height: 1.5em;
+    width: 45ch;
+}
+
+.difference-section h1 {
+    line-height: 1.4;
+    font-size: 2rem;
+    color: #333;
+}
+
+.difference-section p {
+    color: #666;
+    line-height: 1.5rem;
+    margin-bottom: 8rem;
+}

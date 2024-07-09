@@ -1,0 +1,74 @@
+.annual-report-section {
+    position: relative;
+    z-index: -3;
+    overflow: hidden;
+    padding: 6rem 1.5rem;
+    text-align: center;
+    background: #122038;
+    color: white;
+    border-radius: 0 0 3rem 0;
+}
+
+.left-corner-bg {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    /* border: 1px solid #fa8072; */
+
+    top: -150px;
+    left: -220px;
+    z-index: -2;
+
+    background: hsla(141, 95%, 67%, 1);
+
+    background: radial-gradient(circle, rgba(113, 231, 154, 0.304) 0%, rgba(135, 186, 146, 0.398) 36%);
+
+    background: -moz-radial-gradient(circle, rgba(113, 231, 154, 0.304) 0%, rgba(135, 186, 146, 0.398) 36%);
+
+    background: -webkit-radial-gradient(circle, rgba(113, 231, 154, 0.304) 0%, rgba(135, 186, 146, 0.398) 36%);
+
+    filter: blur(20px);
+    background-blend-mode: multiply;
+
+    box-shadow: 0 0 70px 60px rgba(134, 185, 145, 0.5);
+
+}
+
+.right-corner-bg {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+    bottom: -230px;
+    right: -100px;
+    z-index: -2;
+
+    background: hsla(141, 95%, 67%, 1);
+
+    background: radial-gradient(circle, rgba(154, 231, 181, 0.542) 11%, rgb(86, 90, 77) 100%);
+
+    background: -moz-radial-gradient(circle, rgba(154, 231, 181, 0.542) 11%, rgb(86, 90, 77) 100%);
+
+    background: -webkit-radial-gradient(circle, rgba(154, 231, 181, 0.54) 11%, rgb(86, 90, 77) 100%);
+
+
+    filter: blur(20px);
+    background-blend-mode: multiply;
+
+    box-shadow: 0 0 70px 60px rgba(134, 185, 145, 0.5);
+}
+
+.annual-report-section h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.annual-report-section p {
+    font-size: 16px;
+    color: #ffffff;
+    width: 30rem;
+    margin: 0 auto;
+}
