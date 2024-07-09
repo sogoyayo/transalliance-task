@@ -8,7 +8,7 @@ const ContactSection = () => {
         <section className="contact-section section">
             <div className='section-center speak-to-sales-section'>
                 <div className="sales-image">
-                    <img className='' src={ContactImage} alt="Contact Image" />
+                    <img src={ContactImage} alt="Contact" />
                 </div>
                 
                 <div className="sales-form">
